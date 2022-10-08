@@ -1,10 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "7b5Vfsg1JDIHb5xy8soHfqHMeY9N3SpzCcXoRYcMrzo8++61EwoTuQ4FFKSo1EUjlvfwlUpp9jB1szPfLlq0Pg==",
+  "dgSpecHash": "aSIolEux+W4gsf45D71/KjLn8QEihDNFlRsmnI10vWY6EUyIGh7/beibDfdi0pY3QLhxU3F7PbZjtv3+JjUUXA==",
   "success": true,
-  "projectFilePath": "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\BeginnerApp.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\asiribaddana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
-  ],
+  "projectFilePath": "/Users/anuradhahewasiribaddana/Documents/Repos/flag/solid-garbanzo/BeginnerApp/BeginnerApp/BeginnerApp.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }
