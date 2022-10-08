@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "7b5Vfsg1JDIHb5xy8soHfqHMeY9N3SpzCcXoRYcMrzo8++61EwoTuQ4FFKSo1EUjlvfwlUpp9jB1szPfLlq0Pg==",
+  "success": true,
+  "projectFilePath": "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\BeginnerApp.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\asiribaddana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+  ],
+  "logs": []
+}
