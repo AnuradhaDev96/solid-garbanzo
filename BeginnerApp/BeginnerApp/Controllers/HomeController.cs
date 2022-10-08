@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace BeginnerApp.Controllers
 {
+    // Home controller
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
