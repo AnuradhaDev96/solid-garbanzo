@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
@@ -14,6 +15,9 @@ namespace BeginnerApp.Models
 
         [Required]
         public string Name { get; set; }
+
+        [DisplayName("Display Order")]        
+        [Range(1, 100)] // Can specify an error message also
         public int DisplayOrder { get; set; }
 
         // with default value
