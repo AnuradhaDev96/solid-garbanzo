@@ -10,3 +10,7 @@ Add migration | Add<ModelName>ToDatabase
 
 Update the database
 - update-database
+
+## Development Tips
+- Download bootstrap theme from https://bootswatch.com/ and add it to wwwroot/css/ folder. Then link it in <head> tag of _Layout.cshtml file
+- Copy the js link for bootstrap from https://getbootstrap.com/docs/ and paste it in _Layout.cshtml as script
