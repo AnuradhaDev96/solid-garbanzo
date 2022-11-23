@@ -1,25 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "/Users/anuradhahewasiribaddana/Documents/Repos/flag/solid-garbanzo/BeginnerApp/BeginnerApp/BeginnerApp.csproj": {}
+    "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\BeginnerApp.csproj": {}
   },
   "projects": {
-    "/Users/anuradhahewasiribaddana/Documents/Repos/flag/solid-garbanzo/BeginnerApp/BeginnerApp/BeginnerApp.csproj": {
+    "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\BeginnerApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/anuradhahewasiribaddana/Documents/Repos/flag/solid-garbanzo/BeginnerApp/BeginnerApp/BeginnerApp.csproj",
+        "projectUniqueName": "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\BeginnerApp.csproj",
         "projectName": "BeginnerApp",
-        "projectPath": "/Users/anuradhahewasiribaddana/Documents/Repos/flag/solid-garbanzo/BeginnerApp/BeginnerApp/BeginnerApp.csproj",
-        "packagesPath": "/Users/anuradhahewasiribaddana/.nuget/packages/",
-        "outputPath": "/Users/anuradhahewasiribaddana/Documents/Repos/flag/solid-garbanzo/BeginnerApp/BeginnerApp/obj/",
+        "projectPath": "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\BeginnerApp.csproj",
+        "packagesPath": "C:\\Users\\asiribaddana\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "/Users/anuradhahewasiribaddana/.config/NuGet/NuGet.Config"
+          "C:\\Users\\asiribaddana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -37,6 +45,30 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": {
+              "target": "Package",
+              "version": "[3.1.29, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.29, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.29, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,6 +79,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.24, 3.1.24]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.AspNetCore.App": {
               "privateAssets": "none"
@@ -55,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/x64/sdk/6.0.106/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,35 @@
+﻿@model Trophy
+
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Edit Trophy</h2>
+        </div>
+
+        @* Custom validations from server side also can be shown here. *@
+        <div asp-validation-summary="All"></div>
+
+        <div class="mb-3">
+            <label asp-for="TrophyName"></label>
+            <input asp-for="TrophyName" class="form-control" />
+            @* Client side validation *@
+            <span asp-validation-for="TrophyName" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="TrophyDescription"></label>
+            <input asp-for="TrophyDescription" class="form-control" />
+            @* Client side validation *@
+            <span asp-validation-for="TrophyDescription" class="text-danger"></span>
+        </div>
+        <button class="btn btn-primary" type="submit" style="width:150px">Update</button>
+        <a asp-controller="Trophy" asp-action="Index" class="btn btn-secondary" style="width:150px">Back to List</a>
+    </div>
+</form>
+
+@* Validation using Partial views *@
+@*@section Scripts {
+        @{
+            <partial name="_ValidationScriptsPartial"/>
+        }
+    }*@
+
