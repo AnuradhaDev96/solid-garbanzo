@@ -16,5 +16,11 @@ namespace BeginnerApp.Data
         }
 
         public DbSet<Category> Categories { get; set; }
+
+        public DbSet<Trophy> Trophies { get; set; }
+
+        public DbSet<Auction> Auctions { get; set; }
+
+        public DbSet<Player> Players { get; set; }
     }
 }

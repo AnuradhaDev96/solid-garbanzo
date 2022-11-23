@@ -1,0 +1,53 @@
+﻿@model Auction
+
+<form method="post" asp-action="Edit">
+    <div class="border p-3 mt-4">
+        <div class="row pb-2">
+            <h2 class="text-primary">Edit Auction</h2>
+        </div>
+
+        @* Custom validations from server side also can be shown here. *@
+        <div asp-validation-summary="All"></div>
+
+        <div class="mb-3">
+            <label asp-for="Title"></label>
+            <input asp-for="Title" class="form-control" />
+            @* Client side validation *@
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="Description"></label>
+            <input asp-for="Description" class="form-control" />
+            @* Client side validation *@
+            <span asp-validation-for="Description" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="ActualAmount"></label>
+            <input asp-for="ActualAmount" class="form-control" />
+            @* Client side validation *@
+            <span asp-validation-for="ActualAmount" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="EndTime"></label>
+            <input asp-for="EndTime" class="form-control" />
+            @* Client side validation *@
+            <span asp-validation-for="EndTime" class="text-danger"></span>
+        </div>
+        <div class="mb-3">
+            <label asp-for="StartTime"></label>
+            <input asp-for="StartTime" class="form-control" />
+            @* Client side validation *@
+            <span asp-validation-for="StartTime" class="text-danger"></span>
+        </div>
+        <button class="btn btn-primary" type="submit" style="width:150px">Update</button>
+        <a asp-controller="Auction" asp-action="Index" class="btn btn-secondary" style="width:150px">Back to List</a>
+    </div>
+</form>
+
+@* Validation using Partial views *@
+@*@section Scripts {
+        @{
+            <partial name="_ValidationScriptsPartial"/>
+        }
+    }*@
+
