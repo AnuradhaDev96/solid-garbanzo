@@ -1,5 +1,7 @@
 ﻿using BeginnerApp.Data;
+using BeginnerApp.Interfaces;
 using BeginnerApp.Models;
+using BeginnerApp.Repository;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -12,15 +14,17 @@ namespace BeginnerApp.Controllers
     {
         //creating ApplicationDbContext object for db access
         private readonly ApplicationDbContext _dbContext;
+        private readonly IAuctionRepository _auctionRepository;
 
         public AuctionController(ApplicationDbContext dbContext)
         {
             _dbContext = dbContext;
+            _auctionRepository = new AuctionRepository();
         }
 
         public IActionResult Index()
         {
-            IEnumerable<Auction> objAuctionList = _dbContext.Auctions;
+            IEnumerable<Auction> objAuctionList = _auctionRepository.GetAuctions();
             return View(objAuctionList);
         }
 
