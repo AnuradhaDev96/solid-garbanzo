@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "8hnM66W1agqgZEApOaFid6p6Kk0EZRj8fcb2duil9uiPEqcNnm1mqjRPLc5Jwllia+aR455BeTGa2YBRP1Rz7Q==",
+  "dgSpecHash": "sKbQukSLcEpYoPi/tFH0Dn1PJXbtGdDmURKvVOumkdQMl/GLRxxjugs1nDsUUQ+zt8OFUTwXC9P4YZljm7tYrA==",
   "success": true,
   "projectFilePath": "D:\\Repos\\asp.net\\BeginnerApp\\BeginnerApp\\BeginnerApp.csproj",
   "expectedPackageFiles": [
@@ -167,7 +167,7 @@
     "C:\\Users\\asiribaddana\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\asiribaddana\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
     "C:\\Users\\asiribaddana\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
-    "C:\\Users\\asiribaddana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.24\\microsoft.netcore.app.host.win-x64.3.1.24.nupkg.sha512"
+    "C:\\Users\\asiribaddana\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.31\\microsoft.netcore.app.host.win-x64.3.1.31.nupkg.sha512"
   ],
   "logs": []
 }
